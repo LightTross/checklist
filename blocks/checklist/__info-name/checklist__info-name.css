@@ -1,0 +1,11 @@
+.checklist__info-name {
+  width: 76px;
+  height: 18px;
+  border-radius: 40px;
+  margin: 0;
+  padding: 0;
+  background-color: #2364DB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

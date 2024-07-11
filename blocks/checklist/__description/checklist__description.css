@@ -1,0 +1,7 @@
+.checklist__description {
+  width: 389px;
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

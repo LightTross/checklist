@@ -1,0 +1,19 @@
+.checklist__bar-circle {
+  /*width: 62px;
+  height: 62px;
+  --size: 62px;*/
+  width: 61px;
+  height: 61px;
+  --size: 61px;
+  --half-size: calc(var(--size) / 2);
+  --stroke-width: 2px;
+  --radius: calc((var(--size) - var(--stroke-width)) / 2);
+}
+
+.checklist__bar-circle circle {
+  cx: var(--half-size);
+  cy: var(--half-size);
+  r: var(--radius);
+  fill: none;
+  stroke-linecap: round;
+}

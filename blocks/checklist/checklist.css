@@ -1,0 +1,11 @@
+.checklist {
+  width: 743px;
+  height: 91px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #3579F5;
+  --current-case: 0;
+  --total-cases: 7;
+  --progress: max(calc(( var(--current-case) / var(--total-cases) ) * 100), 1.8)
+}

@@ -1,0 +1,13 @@
+.checklist__description-title {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.33;
+  color: #fff;
+  margin: 0;
+}
+
+.checklist__description-title::before {
+  counter-reset: x var(--current-case) y var(--total-cases);
+  content: 'Выполнено: ' counter(x) ' из ' counter(y) ' действий';
+}

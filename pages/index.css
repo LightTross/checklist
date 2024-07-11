@@ -1,0 +1,17 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/checklist/checklist.css);
+@import url(../blocks/checklist/__progress-bar/checklist__progress-bar.css);
+@import url(../blocks/checklist/__bar-content/checklist__bar-content.css);
+@import url(../blocks/checklist/__bar-circle/checklist__bar-circle.css);
+@import url(../blocks/checklist/__circle-inside/checklist__circle-inside.css);
+@import url(../blocks/checklist/__circle-outside/checklist__circle-outside.css);
+@import url(../blocks/checklist/__info/checklist__info.css);
+@import url(../blocks/checklist/__info-name/checklist__info-name.css);
+@import url(../blocks/checklist/__info-title/checklist__info-title.css);
+@import url(../blocks/checklist/__description/checklist__description.css);
+@import url(../blocks/checklist/__description-title/checklist__description-title.css);
+@import url(../blocks/checklist/__description-subtitle/checklist__description-subtitle.css);
+@import url(../blocks/checklist/__button/checklist__button.css);
+@import url(../blocks/checklist/__btn-open/checklist__btn-open.css);
