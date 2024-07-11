@@ -1,7 +1,4 @@
 .checklist__progress-bar {
-  /*margin: 15px 15px 0 21px;
-  width: 62px;
-  height: 62px;*/
   margin: 16px 15px 0 22px;
   width: 61px;
   height: 61px;
@@ -9,6 +6,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: relative;
 }
